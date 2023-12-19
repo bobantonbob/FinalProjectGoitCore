@@ -6,42 +6,64 @@
                 <h1 class="mb-4">Доступні команди FoxBot</h1>
             </div>
             <div class="row g-3" >
-                <div class="col-lg-3 wow fadeIn mx-auto" data-wow-delay="0.3s" style="width: 22%;">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2" >
-                        <img class="img-fluid"  src="{% static 'img/project-1.jpg' %}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
-                            <small style="font-size: 1.4em;" >Add contact</small>
-                            <h5 class="lh-base text-white mb-3">Додати контакт до книги</h5>
+
+               <div class="col-lg-3 wow fadeIn mx-auto" data-wow-delay="0.3s" style="width: 22%;">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <a href="{% static 'img/comand/add_contact_2.jpg' %}" data-fancybox="add_contact" data-caption="Add contact">
+                            <img class="img-fluid" src="{% static 'img/project-1.jpg' %}" alt="">
+                        </a>
+                        <a class="case-overlay text-decoration-none" href="{% static 'img/comand/add_contact_1.jpg' %}" data-fancybox="add_contact" data-caption="Add contact">
+                            <small style="font-size: 1.4em;">Add contact</small>
+                            <h5 class="lh-base text-white mb-3">Додати контакт</h5>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn mx-auto" data-wow-delay="0.5s" style="width: 22%;">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2" >
-                        <img class="img-fluid"  src="{% static 'img/project-2.jpg' %}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <a href="{% static 'img/comand/search_contact_2.jpg' %}" data-fancybox="search_contact" data-caption="Search contact">
+                            <img class="img-fluid" src="{% static 'img/project-2.jpg' %}" alt="">
+                        </a>
+                        <a class="case-overlay text-decoration-none" href="{% static 'img/comand/search_contact_1.jpg' %}" data-fancybox="search_contact" data-caption="Search contact">
                             <small style="font-size: 1.4em;">Search contact</small>
                             <h5 class="lh-base text-white mb-3">Знайти за контактом</h5>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn mx-auto" data-wow-delay="0.7s" style="width: 22%;">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2" >
-                        <img class="img-fluid"  src="{% static 'img/project-3.jpg' %}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <a href="{% static 'img/comand/change_contact_2.jpg' %}" data-fancybox="change_contact" data-caption="Change contact - контакт змінено">
+                            <img class="img-fluid" src="{% static 'img/project-3.jpg' %}" alt="">
+                        </a>
+                        <a class="case-overlay text-decoration-none" href="{% static 'img/comand/change_contact_1.jpg' %}" data-fancybox="change_contact" data-caption="Change contact">
                             <small style="font-size: 1.4em;">Change contact</small>
                             <h5 class="lh-base text-white mb-3">Змінити за контактом</h5>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn mx-auto" data-wow-delay="0.9s" style="width: 22%;">
-                    <div class="case-item position-relative overflow-hidden rounded mb-2" >
-                        <img class="img-fluid"  src="{% static 'img/project-4.jpg' %}" alt="">
-                        <a class="case-overlay text-decoration-none" href="">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <a href="{% static 'img/comand/delete_contact_2.jpg' %}" data-fancybox="delete_contact" data-caption="Delete contact - контакт змінено">
+                            <img class="img-fluid" src="{% static 'img/project-4.jpg' %}" alt="">
+                        </a>
+                        <a class="case-overlay text-decoration-none" href="{% static 'img/comand/delete_contact_1.jpg' %}" data-fancybox="delete_contact" data-caption="Delete contact">
                             <small style="font-size: 1.4em;">Delete contact</small>
-                            <h5 class="lh-base text-white mb-3">Видилити за контактом</h5>
+                            <h5 class="lh-base text-white mb-3">Видалити за контактом</h5>
                         </a>
                     </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="col-lg-3 wow fadeIn mx-auto" data-wow-delay="0.3s" style="width: 22%;">
                     <div class="case-item position-relative overflow-hidden rounded mb-2" >
                         <img class="img-fluid"  src="{% static 'img/project-1.jpg' %}" alt="">
@@ -275,3 +297,6 @@
             </div>
         </div>
     </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>

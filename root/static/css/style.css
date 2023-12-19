@@ -538,3 +538,25 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+
+
+
+
+/*** gall-and-modal ***/
+
+
+.btn {
+    width: 100%;
+}
+
+.btn-blocks {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .gall-block {
+        margin-top: 20px;
+    }
+}
